@@ -1,7 +1,7 @@
 # Software Studio 2018 Spring Assignment 02 小朋友下樓梯
 
 ## 小朋友下樓梯
-<img src="example01.gif" width="700px" height="500px"></img>
+<img src="example01.png" width="700px" height="500px"></img>
 
 ## Goal
 1. **Fork the repo ,remove fork relationship and change project visibility to public.**
