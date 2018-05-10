@@ -17,7 +17,7 @@
 | A complete game process: start menu => game view => game over => quit or play again            |  20%  |
 | Your game should follow the basic rules of  "小朋友下樓梯".                                    |  15%  |
 |         All things in your game should have correct physical properties and behaviors.         |  15%  |
-| Set up some interesting traps or special mechanisms. .(at least 2 different kinds of platform) |  15%  |
+| Set up some interesting traps or special mechanisms. .(at least 2 different kinds of platform) |  10%  |
 | Add some additional sound effects and UI to enrich your game.                                  |  10%  |
 | Store player's name and score in firebase real-time database, and add a leaderboard to your game.        |  10%  |
 | Appearance (subjective)                                                                        |  10%  |
