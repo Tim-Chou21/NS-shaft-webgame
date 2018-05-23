@@ -1,0 +1,117 @@
+[debug] [2018-05-23T13:29:45.936Z] ----------------------------------------------------------------------
+[debug] [2018-05-23T13:29:45.939Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-23T13:29:45.939Z] CLI Version:   3.18.5
+[debug] [2018-05-23T13:29:45.939Z] Platform:      darwin
+[debug] [2018-05-23T13:29:45.939Z] Node Version:  v8.11.1
+[debug] [2018-05-23T13:29:45.940Z] Time:          Wed May 23 2018 21:29:45 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:45.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-23T13:29:45.953Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-23T13:29:45.953Z] > authorizing via signed-in user
+[debug] [2018-05-23T13:29:45.956Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-23T13:29:45.956Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D5XgveExmax06FRnJqX9OXcEJImdmQBhm5AxWutrlJA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 23 2018 21:29:45 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:46.074Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-23T13:29:46.088Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ns-shaft-9f487  
+  
+ Wed May 23 2018 21:29:46 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:46.848Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-23T13:29:46.848Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ns-shaft-9f487/tokens  
+  
+ Wed May 23 2018 21:29:46 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:47.584Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-23T13:29:47.585Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ns-shaft-9f487  
+  
+ Wed May 23 2018 21:29:47 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:48.483Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Assignment_02'...
+[info] 
+[debug] [2018-05-23T13:29:48.485Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:29:48 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:49.403Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-05-23T13:29:49.423Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:29:49 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:50.053Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-05-23T13:29:50.059Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:29:50 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:50.940Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-05-23T13:29:50.949Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:29:50 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:51.861Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-05-23T13:29:51.866Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:29:51 GMT+0800 (CST)
+[debug] [2018-05-23T13:29:52.476Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5016
+
+[debug] [2018-05-23T13:33:11.179Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-23T13:33:11.226Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:567:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-23T13:33:27.973Z] ----------------------------------------------------------------------
+[debug] [2018-05-23T13:33:27.978Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-23T13:33:27.979Z] CLI Version:   3.18.5
+[debug] [2018-05-23T13:33:27.979Z] Platform:      darwin
+[debug] [2018-05-23T13:33:27.979Z] Node Version:  v8.11.1
+[debug] [2018-05-23T13:33:27.979Z] Time:          Wed May 23 2018 21:33:27 GMT+0800 (CST)
+[debug] [2018-05-23T13:33:27.979Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-23T13:33:27.994Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-23T13:33:27.995Z] > authorizing via signed-in user
+[debug] [2018-05-23T13:33:27.997Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ns-shaft-9f487  
+  
+ Wed May 23 2018 21:33:27 GMT+0800 (CST)
+[debug] [2018-05-23T13:33:28.793Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-23T13:33:28.794Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ns-shaft-9f487/tokens  
+  
+ Wed May 23 2018 21:33:28 GMT+0800 (CST)
+[debug] [2018-05-23T13:33:29.479Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-23T13:33:29.480Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ns-shaft-9f487  
+  
+ Wed May 23 2018 21:33:29 GMT+0800 (CST)
+[debug] [2018-05-23T13:33:30.309Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Tim/Desktop/Assignment_02'...
+[info] 
+[debug] [2018-05-23T13:33:30.311Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352316399228/clients/_:getWebAppConfig  
+  
+ Wed May 23 2018 21:33:30 GMT+0800 (CST)
+[debug] [2018-05-23T13:33:30.810Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-23T13:49:53.756Z] Error: write EIO
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-05-23T13:49:53.762Z] Error: write EIO
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小朋友下樓梯</title>
+    <script src="https://cdn.jsdelivr.net/phaser/2.6.2/phaser.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="config.js"></script>
+
+    <script type = "text/javascript" src = "./boot.js"></script>
+    <script type = "text/javascript" src = "./load.js"></script>
+    <script type = "text/javascript" src = "./scoreboard.js"></script>
+    <script type = "text/javascript" src = "./menu.js"></script>
+    <script type = "text/javascript" src = "./win.js"></script>
+    <script type = "text/javascript" src = "./multiplayer.js"></script>
+    <script type = "text/javascript" src = "./index.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark" >
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                    <div id="dynamic-menu" class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="signin.html">Login</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </nav>
+      <div id="canvas"></div>
+</body>
+</html>
