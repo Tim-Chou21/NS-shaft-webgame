@@ -333,13 +333,13 @@ function checkGameOver () {
 }
 
 function gameOver () {
-    text3.visible = true;
+    //text3.visible = true;
     platforms.forEach(function(s) {s.destroy()});
     platforms = [];
     dead_music.play();
     writedata();
     //status = 'gameOver';
-    game.state.start('menu');
+    game.state.start('win');
 }
 
 function restart () {

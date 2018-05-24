@@ -346,20 +346,20 @@ function checkTouchCeiling(player) {
 
 function checkGameOver2 () {
     if(player.life <= 0 || player.body.y > 500) {
-        gameOver();
+        gameOver2();
     }
     else if(player2.life <= 0 || player2.body.y > 500) {
-        gameOver();
+        gameOver2();
     }
 }
 
-function gameOver () {
+function gameOver2 () {
     //text3.visible = true;
     platforms.forEach(function(s) {s.destroy()});
     platforms = [];
     dead_music.play();
     //status = 'gameOver';
-    game.state.start('menu');
+    game.state.start('win');
 }
 
 function restart () {
