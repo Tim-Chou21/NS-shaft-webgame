@@ -45,6 +45,8 @@
     接下來開始說明遊戲
 
     我將整個遊戲分成7個state，分別是boot,load,scoreboard,index,menu,win,multiplayer，在boot,load這兩個state中該做的只有將遊戲的物理引擎打開並成功跳轉跳去menu這個state，再來是menu，在選單中有三個選項，分別是單人模式,雙人模式,排行榜，若選擇單人模式則會跳到index這個state，若選擇雙人模式則會跳到multiplayer這個state，最後若選擇排行榜的話則會跳去scoreboard這個state。
+    首先，必須先登入才能進行遊戲。
+    進入遊戲後，不論是單人或雙人模式，死亡後皆會跳去win這個state，進去後再按ESC即可回到menu。
 
 
     -----menu-----
@@ -58,3 +60,6 @@
 
    -----score-----
    <img src =  './public/scoreimg.png'></img>
+
+   -----dead------
+   <img src = './public/dead.png'></img>
