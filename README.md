@@ -62,4 +62,5 @@
    <img src =  '/public/scoreimg.png'></img>
 
    -----dead------
+   
    <img src = '/public/dead.png'></img>
