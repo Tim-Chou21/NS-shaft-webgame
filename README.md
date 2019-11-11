@@ -50,16 +50,16 @@
 
 
     -----menu-----
-   <img src = 'menuimg.png'></img>
+   <img src = '/public/menuimg.png'></img>
 
    -----1 player-----
-   <img src = 'oneplayer.png'></img>
+   <img src = '/public/oneplayer.png'></img>
 
    -----2 player-----
-   <img src = 'twoplayer.png'></img>
+   <img src = '/public/twoplayer.png'></img>
 
    -----score-----
-   <img src =  'scoreimg.png'></img>
+   <img src =  '/public/scoreimg.png'></img>
 
    -----dead------
-   <img src = 'dead.png'></img>
+   <img src = '/public/dead.png'></img>
